@@ -26,20 +26,7 @@ import javafx.stage.Stage;
 public class Main extends Application {
     
     @Override
-    public void start(Stage stage) throws Exception {
-       /* 
-        
-        Cliente c = new Cliente("lucas");
-        Funcionario f = new Funcionario();
-        Venda v = new Venda(44,new Date(),c,f);
-        
-        v.addIten(new VendaItem(5, 3.5, new Produto()));
-        v.addIten(new VendaItem(5, 3.5, new Produto()));
-
-        
-        
-        */
-        
+    public void start(Stage stage) throws Exception {   
         
         Parent root = FXMLLoader.load(getClass().getResource("view/FXMLTelaPrincipal.fxml"));
         
@@ -49,7 +36,7 @@ public class Main extends Application {
         stage.show();
         
         stage.setTitle("EmpresaFX-TOTAL 1.0");
-        Image icone = new Image(getClass().getResourceAsStream("resources/icon.png"));
+        Image icone = new Image(getClass().getResourceAsStream("resources/business.png"));
         stage.getIcons().add(icone);
     }
 

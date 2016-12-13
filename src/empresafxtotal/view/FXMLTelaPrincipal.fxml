@@ -14,9 +14,11 @@
             <Menu mnemonicParsing="false" text="Cadastro">
               <items>
                 <MenuItem mnemonicParsing="false" onAction="#abraTelaMantemCliente" text="Clientes" />
-                  <MenuItem mnemonicParsing="false" onAction="#abraTelaMantemFornecedor" text="Fornecedores" />
-                  <MenuItem mnemonicParsing="false" onAction="#abraTelaMantemCargo" text="Cargos" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
                   <MenuItem mnemonicParsing="false" onAction="#abraTelaMantemFuncionario" text="Funcionarios" />
+                  <MenuItem mnemonicParsing="false" onAction="#abraTelaMantemCargo" text="Cargos" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#abraTelaMantemFornecedor" text="Fornecedores" />
                   <SeparatorMenuItem mnemonicParsing="false" />
                   <MenuItem mnemonicParsing="false" onAction="#abraTelaMantemProduto" text="Produtos" />
               </items>
