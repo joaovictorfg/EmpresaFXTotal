@@ -11,24 +11,24 @@
    <children>
   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
          <children>
-            <ComboBox fx:id="comboBoxFuncionario" layoutX="14.0" layoutY="28.0" prefWidth="150.0" promptText="Funcionarios" />
-            <ComboBox fx:id="comboBoxCliente" layoutX="14.0" layoutY="62.0" prefWidth="150.0" promptText="Clientes" />
-            <ComboBox fx:id="comboBoxProdutos" layoutX="14.0" layoutY="100.0" prefWidth="150.0" promptText="Produtos" />
-            <TextField fx:id="textFieldValor" layoutX="15.0" layoutY="137.0" promptText="Valor unitario" />
-            <TextField fx:id="textFieldQtd" layoutX="15.0" layoutY="175.0" promptText="Quantidade" />
-            <TableView fx:id="tableViewVendasItens" layoutX="194.0" layoutY="26.0" prefHeight="325.0" prefWidth="392.0">
+            <ComboBox fx:id="comboBoxCliente" layoutX="14.0" layoutY="14.0" prefWidth="150.0" promptText="Clientes" />
+            <TableView fx:id="tableViewVendasItens" layoutX="11.0" layoutY="71.0" prefHeight="309.0" prefWidth="384.0">
                <columns>
-                  <TableColumn fx:id="nome" prefWidth="166.0" text="Nome" />
-                  <TableColumn fx:id="idade" prefWidth="115.0" text="Valor unitario" />
+                  <TableColumn fx:id="nome" prefWidth="166.0" text="Nome Produto" />
                   <TableColumn fx:id="email" prefWidth="107.0" text="Quantidade" />
+                  <TableColumn fx:id="idade" prefWidth="115.0" text="Valor unitario" />
                </columns>
             </TableView>
          </children>
       </AnchorPane>
-      <Button layoutX="545.0" layoutY="361.0" mnemonicParsing="false" onAction="#save" text="Salvar" />
-      <Button layoutX="100.0" layoutY="227.0" mnemonicParsing="false" onAction="#deletar" prefHeight="25.0" prefWidth="67.0" text="Deletar" />
-      <ComboBox fx:id="comboVendas" layoutX="14.0" layoutY="287.0" prefHeight="25.0" prefWidth="150.0" />
-      <Button layoutX="108.0" layoutY="321.0" mnemonicParsing="false" onAction="#carregar" text="Carregar" />
-      <Button fx:id="botaoAdicionar" layoutX="14.0" layoutY="227.0" mnemonicParsing="false" onAction="#load" text="Adicionar" />
+      <Button layoutX="521.0" layoutY="346.0" mnemonicParsing="false" onAction="#save" text="Salvar" />
+      <Button layoutX="502.0" layoutY="139.0" mnemonicParsing="false" onAction="#deletar" prefHeight="25.0" prefWidth="67.0" text="Deletar" />
+      <ComboBox fx:id="comboVendas" layoutX="420.0" layoutY="180.0" prefHeight="25.0" prefWidth="150.0" />
+      <Button layoutX="423.0" layoutY="346.0" mnemonicParsing="false" onAction="#carregar" text="Carregar" />
+      <Button fx:id="botaoAdicionar" layoutX="420.0" layoutY="139.0" mnemonicParsing="false" onAction="#load" text="Adicionar" />
+      <ComboBox fx:id="comboBoxFuncionario" layoutX="170.0" layoutY="14.0" prefWidth="150.0" promptText="Funcionarios" />
+      <ComboBox fx:id="comboBoxProdutos" layoutX="329.0" layoutY="14.0" prefWidth="150.0" promptText="Produtos" />
+      <TextField fx:id="textFieldValor" layoutX="420.0" layoutY="65.0" promptText="Valor unitario" />
+      <TextField fx:id="textFieldQtd" layoutX="420.0" layoutY="101.0" promptText="Quantidade" />
    </children>
 </AnchorPane>
